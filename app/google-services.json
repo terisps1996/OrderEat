@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "712112398029",
+    "firebase_url": "https://ordereat-c31a7.firebaseio.com",
+    "project_id": "ordereat-c31a7",
+    "storage_bucket": "ordereat-c31a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:712112398029:android:8e4ee9063678b0e4",
+        "android_client_info": {
+          "package_name": "project.ordereat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "712112398029-8ab1sk4gva11lfes063fodp28nkvgetd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "project.ordereat",
+            "certificate_hash": "02bc0d969e4a7b3d6eb981d9b7c3a9a84cae225b"
+          }
+        },
+        {
+          "client_id": "712112398029-84to5fi7a8j4gv6o45942entbb3uk4ie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBA8MnSi3d9E4vCYIKhZhAwzqc8o7A0wwE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "712112398029-84to5fi7a8j4gv6o45942entbb3uk4ie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

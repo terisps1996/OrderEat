@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="project.ordereat">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".User.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".User.SignIn" />
+        <activity android:name=".User.SignUp" />
+        <activity
+            android:name=".User.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".User.FoodList" />
+        <activity android:name=".User.FoodDetail" />
+        <activity android:name=".User.Cart" />
+        <activity android:name=".User.OrderStatus" />
+        <activity android:name=".User.OrderDetail" />
+        <activity
+            android:name=".Admin.AdminHome"
+            android:label="@string/title_activity_admin_home"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".Admin.AdminFoodList" />
+        <activity android:name=".Admin.AdminOrderStatus" />
+
+        <service
+            android:name=".Service.ListenOrder"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".Admin.AdminSignUp"></activity>
+    </application>
+
+</manifest>
